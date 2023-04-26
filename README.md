@@ -17,3 +17,8 @@ A bike-sharing system is an innovative transportation strategy that provides ind
 * There is a significant drop in the number of rented bikes during Winters(Dec-Feb) because it's freezing cold!
 * The demand for bikes increases during warmer temperatures,which is why there's maximum count of rented bikes during the Summer season.
 * In all seasons,the peak demands for rental bikes occur on the opening (8-9 AM) and closing times (6-7pm) of offices and institutions.
+
+**Conclusion based on Model Evaluation:**
+
+* Gradient Boosting Regression(GridSearchCV) and Random forest gave good r2 scores. We can deploy any of these models.
+* Temperature and Hour were found to be most influential variables in predicting the hourly demand for rental bikes
