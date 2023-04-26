@@ -20,5 +20,9 @@ A bike-sharing system is an innovative transportation strategy that provides ind
 
 **Conclusion based on Model Evaluation:**
 
+Calculated MAE, MSE, RMSE, and R2 scores for each model. Based on r2 score will decide the model performance.
+
+Assumption: if the difference in R2 score between the Train data and the Test is more than 5 % we will consider it as overfitting.
+
 * Gradient Boosting Regression(GridSearchCV) and Random forest gave good r2 scores. We can deploy any of these models.
 * Temperature and Hour were found to be most influential variables in predicting the hourly demand for rental bikes
